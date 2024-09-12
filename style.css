@@ -1,0 +1,312 @@
+body{
+  overflow-x: hidden;
+  font-family:" Barlow Semi Condensed", "SF Pro Text", "Helvetica Neue", arial, sans-serif;
+}
+.icon-img{
+  width: 35px;
+}
+
+.navbar-nav a{
+  color: rgb(239, 237, 237);
+  text-transform: uppercase;
+  font-size: 0.87rem;
+  margin-left: 0.50rem;
+  ;
+  
+}
+.navbar-collapse{
+/* height: 100vh; */
+z-index: 5;
+font-size: 5rem;
+display: flex;
+justify-content: end;
+transition: 0.3s ease-in-out;
+
+}
+
+.navbar-expand-lg{
+  height: 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+.navbar-toggler-icon{
+  background-color: white;
+}  
+/* ---------------- */
+.video-container{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.background-video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.section_one{
+  position: relative;
+  z-index: 1;
+
+}
+.container-heading{
+  font-weight: 750;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  color: white;
+  
+}
+.container-para{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.btn{
+ 
+  padding: .75rem 2.5rem;
+}
+/* ----------------- */
+.section-two{
+  background: linear-gradient(#0000001b, #00000011),url(images/wha-3.jpg);
+  background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  
+}
+.section-two-container h1{
+padding-top: 3rem;
+}
+.second-para{
+  font-size: .75rem;
+  line-height: 2rem;
+  
+}
+.para-container{
+  right: 4rem;
+}
+.container-para-group{
+width: fit-content;
+}
+.container-para-group p:first-child{
+font-size: 1.2rem;
+color: white;
+border-bottom:1px solid rgb(239, 239, 239) ;
+border-right: 1px solid rgb(249, 245, 245);
+border-left: 1px solid white;
+margin: 0;
+padding: 10px 20px 20px;
+}
+.container-para-group p:last-child{
+color: white;
+font-size: 1.2rem;
+border-right: 1px solid rgb(249, 245, 245);
+border-left: 1px solid white;
+padding: 10px 20px 20px;
+}
+.section-two{
+display: flex;
+align-items: center;
+}
+/* section three */
+.green-image{
+  max-width: 500px;
+  width: 100%;
+}
+
+.container-para-group2{
+width: fit-content;
+display: flex;
+flex-direction: column;
+/* margin: 50% auto; */
+}
+.container-para-group2 p:first-child{
+font-size: 1.2rem;
+color: white;
+border-bottom:1px solid rgb(239, 239, 239) ;
+border-right: 1px solid rgb(249, 245, 245);
+border-left: 1px solid white;
+margin: 0;
+padding: 10px 20px 20px;
+}
+.container-para-group2 p:last-child{
+color: white;
+font-size: 1.2rem;
+border-right: 1px solid rgb(249, 245, 245);
+border-left: 1px solid white;
+padding: 10px 20px 20px;
+}
+
+
+.section-three{
+ background-color:black;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+
+}
+.span-content{
+  margin-left: -0.40rem;
+}
+.container-wrap{
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+/* ----------- */
+.card-img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+ }
+.custom-card {
+  min-height: 600px; /* Adjust the value as needed */
+}
+.last-secton {
+  background-color: black;
+}
+.card-heading{
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: .25rem;
+  padding-bottom: 1.4rem;
+}
+/* ---------------- footer*/
+.logos{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: .25rem;
+  filter: grayscale(100);
+}
+.logos:hover{
+  filter: grayscale(0);
+}
+.footer-info{
+  text-decoration: none;
+  margin-left: .50rem;
+  font-size: 1rem;
+}
+.custome-height{
+  min-height: 150px;
+}
+
+
+/* ---------Mediia quiry------------- */
+
+@media (max-width: 1024px){
+  .section-two-container h1{
+    padding-top: 2rem;
+  }
+  .button-container{
+    margin-bottom: 1.5rem;
+  }
+  .container-wrap h1{
+    font-size: 2.5rem;
+  }
+  .section_one h1{
+    font-size: 2.5rem;
+  }
+
+}
+
+ @media(max-width:768px){
+  .container-heading{
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+  .container-wrap h1{
+    padding-top: 2rem;
+  }
+  .logo-container{
+    display: flex;
+    justify-content: center;
+  }
+  .logos{
+    margin-left: 10px;
+  }
+.copy-container{
+    display: flex;
+    flex-direction: column;  
+ } 
+ .container-heading{
+  margin-bottom: 0;
+ } 
+ .container-para{
+  font-size: 1rem;
+ }
+
+
+ } 
+ @media(max-width:480px){
+  .section-two-container{
+   text-align: center;
+  }
+  .container-para-group{
+    margin-left: 20%;
+  }
+  .container-wrap{
+    text-align: center;
+  }
+  .container-para-group2{
+    margin-left: 15%;
+  }
+  
+ }
+ @media(max-width:320px){
+  .container-para-group{
+    margin-left: 10%;
+  }
+  .container-para-group2{
+    margin-left: 2%;
+  }
+ 
+  .second-para{
+    font-size: 0.60rem;
+    margin-top: 25%;
+    line-height: 1rem;
+
+  }
+  .conntainer-heading{
+    font-size: 1rem;
+  }
+  .container-heading{
+    font-size: 2rem!important;
+    padding-top: 2rem;
+  }
+  .button-container{
+    text-align: center;
+  }
+  .navbar-collapse a{
+    font-size: 1.1rem;
+ 
+  }
+  .navbar-collapse{
+    /* height: 100vh; */
+    z-index: 5;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+   
+  } 
+ }
+ @media(max-width:988px){
+  .img-txt2{
+
+  }
+  .img-txt1{
+  }
+  
+ }
+ @media(max-width:2560){
+  .img-txt3{
+    margin-top:3px;
+  }
+ }
